@@ -706,7 +706,6 @@ DATA_SECTION
 			else if( !h ) 
 			{
 					//cout<<h<<endl;
-
 				for(int h=1;h<=nsex;h++)
 				{
 					ig                   = pntr_ags(f,g,h);
@@ -4931,14 +4930,13 @@ GLOBALS_SECTION
 	#include "lib/baranov.h"
   #include "lib/LogisticNormal.h"
 	#include "Selex.h"
-  #if defined _WIN32 || defined _WIN64
+	#if defined _WIN32 || defined _WIN64
 	#include "lib/msy.cpp"
 	#include "lib/baranov.cpp"
 	#include "lib/LogisticNormal.cpp"
 	#include "lib/LogisticStudentT.cpp"
 	#include "OpMod.h"
   #endif
-
 	ivector getIndex(const dvector& a, const dvector& b)
 	{
 		int i,j,n;
