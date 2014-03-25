@@ -35,16 +35,6 @@
 ## Age-schedule and population parameters                                    ##
 ## ------------------------------------------------------------------------- ##
 ## Need one value for each area and sex.
-<<<<<<< HEAD
-## Asuming female is first (left-hand column)
-57.93       85.0        # -asymptotic length (linf), from Spies and Turnock
-0.172       0.161       # -brody growth coefficient (k), from AFSC
--2.172      0.812       # -theoretical age at zero length (to), from AFSC
-3.2232      3.2232      # -scalar in length-weight allometry, from Spies and Turnock, grams and cm
-3.915-e6    3.915-e6    # -power parameter in length-weight allometry, from Spies and Turnock
-1000        10          # -age at 50% maturity (approx with log(3.0)/k), from AFSC
-3.402       3.402       # -std at 50% maturity (CV ~ 0.1), completely fabricated values 3.402
-=======
 57.93     85.0           # -asymptotic length (linf), from Spies and Turnock
  0.172    0.161          # -brody growth coefficient (k), from AFSC
 -2.172    0.812          # -theoretical age at zero length (to), from AFSC
@@ -52,7 +42,6 @@
  3.2232   3.2232         # -power parameter in length-weight allometry, from Spies and Turnock
  1000    10              # -age at 50% maturity (approx with log(3.0)/k), from AFSC
  0.3      0.3            # -std at 50% maturity (CV ~ 0.1), completely fabricated values 3.402
->>>>>>> cgrandin/IPHC-developer
 0
 0
 ##
