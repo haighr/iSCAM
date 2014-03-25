@@ -90,6 +90,11 @@ dist/
 *.sql
 *.sqlite
 
+#Doxygen directory#
+html/
+
+#Jekyll directory
+
 # OS generated files #
 ######################
 .DS_Store
