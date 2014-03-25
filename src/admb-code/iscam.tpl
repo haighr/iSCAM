@@ -144,7 +144,7 @@ DATA_SECTION
 	/// | ReportFileName         : file name to copy report file to.
 	!! ReportFileName = BaseFileName + adstring(".rep");
 	!! cout<<BaseFileName<<endl;
-	
+	// Hi chris
 	
 	// |---------------------------------------------------------------------------------|
 	// | READ IN PROJECTION FILE CONTROLS                                         
@@ -4929,13 +4929,15 @@ GLOBALS_SECTION
 	#include "lib/msy.h"
 	#include "lib/msy.hpp"
 	#include "lib/baranov.h"
-    #include "lib/LogisticNormal.h"
+  #include "lib/LogisticNormal.h"
 	#include "Selex.h"
+  #if defined _WIN32 || defined _WIN64
 	#include "lib/msy.cpp"
 	#include "lib/baranov.cpp"
 	#include "lib/LogisticNormal.cpp"
 	#include "lib/LogisticStudentT.cpp"
 	#include "OpMod.h"
+  #endif
 
 	ivector getIndex(const dvector& a, const dvector& b)
 	{
