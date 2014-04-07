@@ -1,5 +1,4 @@
 # iSCAM View Tracker File 
 "Select","Label","Description","Control File"
 #The following line is for the Demo example
-FALSE, Arrowtooth, "Arrowtooth Flounder", C:/github/iSCAM/examples/ArrowtoothFlounder/arf
-TRUE, PCod, "Pacific Cod", C:/github/iSCAM/examples/PacificCod/5CD/PcodLength
+TRUE,Demo,         "Flack Lake",../DEMO/DATA/ControlTemplate
